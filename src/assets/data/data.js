@@ -22,7 +22,7 @@ export const data = {
 
     time: {
         marriage: {
-            year: '2024',
+            year: '2030',
             month: 'November',
             date: '14',
             day: 'Kamis',
@@ -45,7 +45,7 @@ export const data = {
     },
 
     link: {
-        calendar: 'https://calendar.app.google/sZuPoeZejuhSmmbi7',
+        calendar: 'https://calendar.app.google/oSVLRMYC79GzuA4f9',
         map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
     },
 

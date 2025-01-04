@@ -72,4 +72,11 @@ export const galeri = () => {
 
     initializeGallery();
     setInterval(autoPlayGallery, 3000);
+
+    paginationElement.querySelectorAll('li').forEach((pagination) => {
+        pagination.addEventListener('click', (e) => {
+            const id = +e.target.dataset.id;
+            updateGalleryImage(id);
+        })
+    })
 };
