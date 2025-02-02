@@ -2,22 +2,24 @@ export const data = {
   bride: {
     L: {
       id: 1,
-      name: "B. Achmad Zaky",
+      name: "B. Achmad Zaky., S.Tr.Kom",
+      nickname: "Zacky",
       child: "Putra ke 1",
       father: "Mustofa",
       mother: "Sri Nami",
-      image: "./src/assets/images/cowo.png",
+      image: "./src/assets/images/zacky.webp",
     },
     P: {
       id: 2,
-      name: "Farizka Shafa N.",
+      name: "Farizka Shafa N., M.B.A",
+      nickname: "Farizka",
       child: "Putri ke 3",
       father: "Lorem",
       mother: "Ipsum",
-      image: "./src/assets/images/cewe.png",
+      image: "./src/assets/images/farizka.webp",
     },
 
-    couple: "./src/assets/images/couple.png",
+    couple: "./src/assets/images/couple.webp",
   },
 
   time: {

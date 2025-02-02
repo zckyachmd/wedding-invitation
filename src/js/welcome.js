@@ -22,15 +22,12 @@ export const welcome = () => {
 
   const generateFigureContent = (bride) => {
     const {
-      L: { name: brideLName },
-      P: { name: bridePName },
+      L: { nickname: brideLName },
+      P: { nickname: bridePName },
       couple: coupleImage,
     } = bride;
-    return `
-            <img src="${coupleImage}" alt="couple animation">
-            <figcaption>
-                ${brideLName.split(" ")[2]} & ${bridePName.split(" ")[0]}
-            </figcaption>`;
+    return `<img src="${coupleImage}" alt="couple animation">
+    <figcaption>${brideLName} & ${bridePName}</figcaption>`;
   };
 
   const generateParameterContent = () => {
@@ -50,8 +47,7 @@ export const welcome = () => {
     removeClassElement(iconButton, "bx-play-circle");
     addClassElement(iconButton, "bx-pause-circle");
     audioMusic.play();
-    isPlaying = true;
-    wasPlaying = true;
+    wasPlaying = isPlaying = true;
   };
 
   const pauseAudio = () => {
